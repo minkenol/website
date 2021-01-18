@@ -1,0 +1,20 @@
+baseURL = "http://skarmjakten.fi/"
+languageCode = "en-us"
+title = "Skärmjakten"
+theme = "ananke"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "program"
+    name = "program"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/program/"
+    weight = -110
+
+  [[menu.main]]
+    name = "resultatarkiv"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/resultat/"
+    weight = -100
