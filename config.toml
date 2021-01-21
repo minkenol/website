@@ -1,7 +1,18 @@
 baseURL = "http://skarmjakten.fi/"
-languageCode = "en-us"
+languageCode = "sv"
+defaultContentLanguage = "sv"
 title = "Skärmjakten"
 theme = "ananke"
+
+[languages]
+  [languages.sv]
+    title = "Skärmjakten"
+    weight = 1
+    contentDir = "content/sv"
+  [languages.fi]
+    title = "Rastijahti"
+    weight = 2
+    contentDir = "content/fi"
 
 [menu]
 
