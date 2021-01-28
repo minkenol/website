@@ -1,0 +1,18 @@
+title = "Skärmjakten"
+contentDir = "content/sv"
+#The namge of the language, it that language (not in English if it's not English)
+languageName = "Svenska"
+#The language code. Usually two lower-case letters. It that language is spoken in more than one country, the country-code can be added, uppercase. To check it: https://r12a.github.io/app-subtags/?check=pt-BR
+languageCode = "sv"
+#if colon ":" must be prefixed with a space : "&nbsp;" (example in [fr])
+beforeColon = ""
+# Weight used for sorting.
+# 10 for English
+# Other languages from 100 to 999, alphabetical order using languageCode.
+weight = 10
+description = """
+  Skärmjakten.
+"""
+# Ex. for -1 2345.67 -> "-|.| "
+# Doc: https://gohugo.io/functions/numfmt/
+numberFormat = "-|.|,"

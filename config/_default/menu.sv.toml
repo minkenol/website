@@ -1,0 +1,11 @@
+[[main]]
+name = "Program"
+weight = 30
+identifier = "program"
+url = "/program/"
+
+[[main]]
+name = "Resultat"
+weight = 40
+identifier = "arkiv"
+url = "/arkiv/"

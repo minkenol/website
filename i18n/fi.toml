@@ -1,0 +1,13 @@
+[datum]
+other = "Päivämäärä"
+
+[resultat]
+other = "Tulokset"
+one = "Tulokset"
+
+[mellantid]
+other = "Väliajat"
+
+[club]
+other = "Seura"
+one = "Seura"

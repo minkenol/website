@@ -1,0 +1,37 @@
+<table class="table table-hover table-striped">
+  <thead>
+    <tr>
+    <th>#</th>
+    <th>{{ i18n "datum" . }}</th>
+    <th>{{ i18n "club" . }}</th>
+    <th>{{ i18n "place" }}</th>
+    <th>{{ i18n "resultat" . }}</th>
+    <th>{{ i18n "host" . }}</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{ $year := .Get 0 }}
+  {{ $url := (printf "%s%s%s" "/program/" $year ".csv") }}
+  {{ $sep := "," }}
+  {{ $.Scratch.Set "id" "" }}
+  {{ range $i, $r := getCSV $sep $url }}
+  {{ if  lt $i 10 }}
+   {{ $.Scratch.Set "id" "0" }}
+  {{ end }}
+    <tr>
+      <td>{{  $i | add 1 }}</td>
+      <td>{{ index $r 1 }}</td>
+      <td>{{ index $r 2 }}</td>
+      <td>{{ index $r 3 }}</td>
+      <td><a href="/{{ $year }}/{{ $.Scratch.Get "id" }}{{ $i | add 1 }}_res.html">{{ i18n "resultat" . }}</a> <a href="/{{ $year  }}/{{ $.Scratch.Get "id" }}{{ $i | add 1 }}_mel.html">{{ i18n "mellantid" . }}</a></td>
+      <td>{{ $host := index $r 4 }}
+        {{ $hostString := strings.Count "http" $host }}
+        {{ if gt $hostString 0 }}
+          {{ $host_link := split $host ";" }}
+            {{ $link :=  replaceRE " " "" (index $host_link 0 )  }}
+             <a href="/{{$link}}"><img src="/{{ $link }}"> </a> {{ end }}</td>
+    </tr>
+  {{ end }}
+  </tbody>
+</table>
+

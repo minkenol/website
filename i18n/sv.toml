@@ -1,0 +1,19 @@
+[datum]
+one = "Datum"
+other = "Datum"
+
+[club]
+one = "Förening"
+other = "Förening"
+
+[resultat]
+one = "Resultat"
+other = "Resultat"
+
+[mellantid]
+one = "Mellantider"
+other = "Mellantider"
+
+[host] 
+one = "Evenmangsvärd"
+other = "Evenemangsvärd"

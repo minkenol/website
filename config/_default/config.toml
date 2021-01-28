@@ -1,0 +1,13 @@
+baseURL = "http://skarmjakten.fi/"
+languageCode = "sv"
+defaultContentLanguage = "sv"
+title = "Skärmjakten"
+staticDir = ["resultat", "static"]
+
+assetDir = "src"
+
+[params]
+  background_color_class = "bg-blue"
+
+  github_username = "skarmjakten"
+

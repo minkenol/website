@@ -1,0 +1,11 @@
+[[main]]
+name = "Ohjelma"
+weight = 30
+identifier = "program"
+url = "/fi/program/"
+
+[[main]]
+name = "Tulosarkisto"
+weight = 40
+identifier = "arkiv"
+url = "/fi/arkiv/"
