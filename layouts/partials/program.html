@@ -28,8 +28,9 @@
         {{ $hostString := strings.Count "http" $host }}
         {{ if gt $hostString 0 }}
           {{ $host_link := split $host ";" }}
-            {{ $link :=  replaceRE " " "" (index $host_link 0 )  }}
-             <a href="/{{$link}}"><img src="/{{ $link }}"> </a> {{ end }}</td>
+            {{ $image :=  replaceRE " " "" (index $host_link 0 )  }}
+            {{ $link :=  replaceRE " " "" (index $host_link 1 )  }}
+             <a href="{{$link}}"><img style="max-height:40px;max-width:200px" src="/{{ $image }}"> </a> {{ end }}</td>
     </tr>
   {{ end }}
   </tbody>

@@ -1,3 +1,9 @@
+[skarmjakten]
+other = "Skärmjakten"
+
+[home_hero_title]
+other = "Motionsorientering i <br />Jakobstadsregionen"
+
 [datum]
 one = "Datum"
 other = "Datum"
