@@ -17,6 +17,8 @@
   {{ range $i, $r := getCSV $sep $url }}
   {{ if  lt $i 10 }}
    {{ $.Scratch.Set "id" "0" }}
+  {{ else }}
+   {{ $.Scratch.Set "id" "" }}
   {{ end }}
     <tr>
       <td>{{  $i | add 1 }}</td>
