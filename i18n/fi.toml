@@ -4,6 +4,12 @@ other = "Kuntosuunnistus <br/> Pietarsaaren seudulla"
 [skarmjakten]
 other = "Rastijahti"
 
+[starter]
+other = "Lähdöt"
+
+[runner]
+other = "Suunnistajat"
+
 [datum]
 other = "Päivämäärä"
 

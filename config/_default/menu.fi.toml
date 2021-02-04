@@ -9,3 +9,8 @@ name = "Tulosarkisto"
 weight = 40
 identifier = "arkiv"
 url = "/fi/arkiv/"
+
+[[main]]
+name = "Statistikka"
+weight = 50
+identifier = "statistik"

@@ -1,6 +1,12 @@
 [skarmjakten]
 other = "Skärmjakten"
 
+[starter]
+other = "Starter"
+
+[runner]
+other = "Löpare"
+
 [home_hero_title]
 other = "Motionsorientering i <br />Jakobstadsregionen"
 

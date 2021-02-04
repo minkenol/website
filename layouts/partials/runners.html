@@ -1,0 +1,98 @@
+
+{{ $y := (.Get 0) }}
+{{ $year := printf "%s%s" "stat" $y }}
+{{ i18n "starter" }}: {{ (index $.Site.Data.stats $year).totalStarts }}
+<canvas id="runners" width="400" height="200"></canvas>
+  <script>
+
+    var ctx = document.getElementById('runners');
+    var myChart = new Chart(ctx, {
+      type: 'horizontalBar',
+  data: {
+            labels: [
+                  {{ range (index $.Site.Data.stats $year).courses }}
+           "{{ .name }}",
+                  {{ end }}
+              ],
+    datasets: [{
+          label: '# {{ i18n "runner" }}',
+                  data: [
+                  {{ range (index $.Site.Data.stats $year).courses }}
+               "{{ .starts }}",
+                  {{ end }}
+                  ],
+      backgroundColor: function(context) {
+            var index = context.dataIndex;
+            var value = context.dataset.data[index];
+        return value > 20 ? 'rgba(255,99,132,0.2)' :  // draw negative values in red
+          value > 10 ? 'rgba(54, 162, 235, 0.2)':
+          value > 5 ? 'rgba(255, 206, 86, 0.2)':
+          value > 2 ? 'rgba(75, 192, 192, 0.2)':
+          'rgba(153, 102, 255, 0.2)';
+      },
+      borderWidth: 1
+
+    }]
+
+  },
+  options: {
+    offset: true,
+    scales: {
+      xAxes: [{
+        ticks: {
+                min: 0,
+                stepSize: 1
+            }
+      }]
+    }
+  }
+});
+  </script>
+
+
+<canvas id="events" width="400" height="250"></canvas>
+  <script>
+
+    var ctx = document.getElementById('events');
+    var myChart = new Chart(ctx, {
+      type: 'horizontalBar',
+  data: {
+            labels: [
+                  {{ range  (index $.Site.Data.stats $year).events }}
+           "{{ .name }}",
+                  {{ end }}
+              ],
+    datasets: [{
+                  label: '# {{ i18n "runner" }}',
+                  data: [
+                  {{ range (index $.Site.Data.stats $year).events }}
+               "{{ .starts }}",
+                  {{ end }}
+                  ],
+      backgroundColor: function(context) {
+            var index = context.dataIndex;
+            var value = context.dataset.data[index];
+        return value > 20 ? 'rgba(255,99,132,0.2)' :  // draw negative values in red
+          value > 10 ? 'rgba(54, 162, 235, 0.2)':
+          value > 5 ? 'rgba(255, 206, 86, 0.2)':
+          value > 2 ? 'rgba(75, 192, 192, 0.2)':
+          'rgba(153, 102, 255, 0.2)';
+      },
+      borderWidth: 1
+
+    }]
+
+  },
+  options: {
+    offset: true,
+    scales: {
+      xAxes: [{
+        ticks: {
+                min: 0,
+                stepSize: 1
+            }
+      }]
+    }
+  }
+});
+  </script>

@@ -9,3 +9,9 @@ name = "Resultat"
 weight = 40
 identifier = "arkiv"
 url = "/arkiv/"
+
+[[main]]
+name = "Statistik"
+weight = 50
+identifier = "statistik"
+
