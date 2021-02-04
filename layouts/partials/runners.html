@@ -2,6 +2,9 @@
 {{ $y := (.Get 0) }}
 {{ $year := printf "%s%s" "stat" $y }}
 {{ i18n "starter" }}: {{ (index $.Site.Data.stats $year).totalStarts }}
+
+{{ $url := (printf "%s%s%s" "/program/" $y ".csv") }}
+{{ $program := getCSV "," $url }}
 <canvas id="runners" width="400" height="200"></canvas>
   <script>
 
@@ -56,10 +59,10 @@
     var ctx = document.getElementById('events');
     var myChart = new Chart(ctx, {
       type: 'horizontalBar',
-  data: {
+      data: {
             labels: [
-                  {{ range  (index $.Site.Data.stats $year).events }}
-           "{{ .name }}",
+                  {{ range $i,$r := $program }}
+                  "{{ (index $r 3) }} ",
                   {{ end }}
               ],
     datasets: [{
