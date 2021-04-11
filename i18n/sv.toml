@@ -18,6 +18,10 @@ other = "Datum"
 one = "Förening"
 other = "Förening"
 
+[place]
+one = "Plats"
+other = "Plats"
+
 [resultat]
 one = "Resultat"
 other = "Resultat"
