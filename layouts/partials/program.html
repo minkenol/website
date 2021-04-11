@@ -33,7 +33,6 @@
             {{ $image :=  replaceRE " " "" (index $host_link 0 )  }}
             {{ $link :=  replaceRE " " "" (index $host_link 1 )  }}
              <a href="{{$link}}"><img style="max-height:40px;max-width:200px" src="/{{ $image }}"> </a> {{ end }}</td>
-    <td>{{ index $r 5 }}</td>
     </tr>
   {{ end }}
   </tbody>
