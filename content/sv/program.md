@@ -9,10 +9,9 @@ Skärmjakten, 2021,
 Vi inleder säsongen med självservice - läs mer under fliken "Allmänt"  
 A-bana är i A3-format, ta med rätt kartfodral. TC vid Gamla Hamn Macken- [kartlänk](https://asiointi.maanmittauslaitos.fi/karttapaikka/?lang=fi&share=customMarker&n=7069034.701167223&e=286720.4737607971&title=SJ/RJ%2014.-18.4.&desc=Kartor,%20sj%C3%A4lvservice%20%0AKartat,%20omatoimi&zoom=11&layers=%5B%7B%22id%22:2,%22opacity%22:100%7D%5D)   
 
-First Header | Second Header
------------- | ------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Nr | Datum | Förening | Plats | Resultat | Evenemangsvärd
+------------ | ------------ | ------------ | ------------ |  ------------ | ------------ |
+
 
 
 {{< partial "2021" >}}
