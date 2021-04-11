@@ -13,6 +13,10 @@ other = "Suunnistajat"
 [datum]
 other = "Päivämäärä"
 
+[place]
+one = "Paikka"
+other = "Paikka"
+
 [resultat]
 other = "Tulokset"
 one = "Tulokset"
