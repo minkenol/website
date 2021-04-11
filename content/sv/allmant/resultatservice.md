@@ -23,7 +23,7 @@ Betala din deltagaravgift enligt alternativen nedan. På hemsidan finns vägvisn
 
 Tidpunkt 
 
-Skärmarna finns utplacerade från och med onsdag morgon till och med söndag kväll kl 19. Observera att delta ansvarsfullt; kom inte med om du är sjuk, vi respekterar riskgrupperna och håller god handhygien. Det är också förbjudet att samlas i större skaror vid detta arrangemang.
+Skärmarna finns utplacerade från och med onsdag kl 17 till och med söndag kväll kl 19. Observera att delta ansvarsfullt; kom inte med om du är sjuk, vi respekterar riskgrupperna och håller god handhygien. Det är också förbjudet att samlas i större skaror vid detta arrangemang.
 
 Avgift 
 
