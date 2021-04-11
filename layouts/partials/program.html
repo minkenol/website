@@ -12,7 +12,7 @@
   <tbody>
   {{ $year := .Get 0 }}
   {{ $url := (printf "%s%s%s" "/program/" $year ".csv") }}
-  {{ $sep := "," }}
+  {{ $sep := "." }}
   {{ $.Scratch.Set "id" "" }}
   {{ range $i, $r := getCSV $url $sep }}
   {{ if  lt $i 10 }}
