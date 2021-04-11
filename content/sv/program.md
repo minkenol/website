@@ -6,7 +6,7 @@ type: page
 
 Nr | Datum | Förening | Plats | Resultat | Evenemangsvärd
 ------------ | ------------ | ------------ | ------------ |  ------------ | ------------ |
-1 | 14-18.4 | Brahe | Gamla Hamn | Resultat Mellantider | [Conalin Cars](www.conalin.com)
+1 | 14-18.4 | Brahe | Gamla Hamn | Resultat Mellantider | [Conalin Cars](http://www.conalin.com)
 
 Program 
 Skärmjakten, 2021, 
