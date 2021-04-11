@@ -14,7 +14,7 @@
   {{ $url := (printf "%s%s%s" "/program/" $year ".csv") }}
   {{ $sep := "," }}
   {{ $.Scratch.Set "id" "" }}
-  {{ range $i, $r := getCSV $sep $url }}
+  {{ range $i, $r := getCSV $url $sep }}
   {{ if  lt $i 10 }}
    {{ $.Scratch.Set "id" "0" }}
   {{ else }}
