@@ -16,7 +16,7 @@ Kilpailutapa
 Maksa osallistumismaksu ao. vaihtoehtojen kautta. Verkkosivulta löytyy karttalinkki jossa opastus kilpailupaikalle. Karttoja on lähdön läheisyydessä, ja kyseessä on itsepalvelumenetelmä. Jos haluat pdf-tiedoston omaa tulostusta varten, ilmoittele kyseisen seuran yhteyshenkilölle. Rasteilla on rastikoodilla varustettuja lippuja, ei emit-leimausta. Älä koske rastilippuihin. 
 
 Ajankohta 
-Rastiliput ja kartat ovat maastossa keskiviikkoaamusta sunnuntai-iltaan klo 19. Muistetaan kuitenkin toimia vastuullisesti; sairaana ei lähdetä liikkumaan vaan pysytään kotona, huomioidaan riskiryhmät, muistetaan oikeaoppinen käsihygienia. Isomman porukan yhteistreenejä ei myöskään saa näillä rasteilla järjestää. 
+Rastiliput ja kartat ovat maastossa keskiviikosta klo 17 sunnuntai-iltaan klo 19. Muistetaan kuitenkin toimia vastuullisesti; sairaana ei lähdetä liikkumaan vaan pysytään kotona, huomioidaan riskiryhmät, muistetaan oikeaoppinen käsihygienia. Isomman porukan yhteistreenejä ei myöskään saa näillä rasteilla järjestää. 
 
 Maksut 
 Yli 16 vuotiaat 6 €/kerta. 
