@@ -13,6 +13,10 @@ other = "Suunnistajat"
 [datum]
 other = "Päivämäärä"
 
+[club]
+other = "Seura"
+one = "Seura"
+
 [place]
 one = "Paikka"
 other = "Paikka"
@@ -23,7 +27,3 @@ one = "Tulokset"
 
 [mellantid]
 other = "Väliajat"
-
-[club]
-other = "Seura"
-one = "Seura"
