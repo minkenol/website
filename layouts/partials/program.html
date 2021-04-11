@@ -28,7 +28,7 @@
         {{ $placeString := strings.Count "http" $place }}
         {{ if gt $placeString 0 }}
         {{ $place_link := split $place ";" }}
-        {{ $string :=  replaceRE " " "" (index $place_link 0 )  }}
+        {{ $string :=  replaceRE "" "" (index $place_link 0 )  }}
         {{ $link :=  replaceRE " " "" (index $place_link 1 )  }}
          <a href="{{$link}}">{{$string}}</a> {{ end }}</td>
         
