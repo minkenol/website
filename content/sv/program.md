@@ -16,7 +16,7 @@ A-bana är i A3-format, ta med rätt kartfodral. TC vid Gamla Hamn Macken- [kart
 
 
 
-{{< partial "2021" >}}
+
 
 
 
