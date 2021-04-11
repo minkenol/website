@@ -14,4 +14,3 @@ Nr | Datum | Förening | Plats | Resultat | Evenemangsvärd
 
 
 
-{{< partial "2021" >}}
