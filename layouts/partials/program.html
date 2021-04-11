@@ -30,7 +30,7 @@
         {{ $place_link := split $place ";" }}
         {{ $string :=  replaceRE " " "" (index $place_link 0 )  }}
         {{ $link :=  replaceRE " " "" (index $place_link 1 )  }}
-         <a href="{{$link}}"></a> {{ end }}</td>
+         <a href="Plats"></a> {{ end }}</td>
         
 <td><a href="/{{ $year }}/{{ $.Scratch.Get "id" }}{{ $i | add 1 }}_res.html">{{ i18n "resultat" . }}</a> <a href="/{{ $year  }}/{{ $.Scratch.Get "id" }}{{ $i | add 1 }}_mel.html">{{ i18n "mellantid" . }}</a></td>
       
