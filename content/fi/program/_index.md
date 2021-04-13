@@ -43,7 +43,7 @@ Tulokset
 Erillisiä tuloslistoja ei julkaista omatoimijärjestelyissä.
 
 
-Brahe Vanha Satama 14.-18.4. karttalinkki
+Brahe Vanha Satama 14.-18.4. keskuspaikka venetakkausasemalla [karttalinkki](https://asiointi.maanmittauslaitos.fi/karttapaikka/?
 Tämän järjestelyn osaanottomaksu maksetaan poikkeuksellisesti Brahe OL:n tilille FI44 5567 0740 0136 55 
 
 
