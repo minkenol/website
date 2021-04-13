@@ -40,6 +40,11 @@ Yhteystiedot
  
 
 Tulokset 
-Erillisiä tuloslistoja ei julkaista omatoimijärjestelyissä. 
+Erillisiä tuloslistoja ei julkaista omatoimijärjestelyissä.
+
+
+Brahe Vanha Satama 14.-18.4. karttalinkki
+Tämän järjestelyn osaanottomaksu maksetaan poikkeuksellisesti Brahe OL:n tilille FI44 5567 0740 0136 55 
+
 
 {{< partial "2021" >}}
