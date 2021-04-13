@@ -28,7 +28,7 @@ Skärmarna finns utplacerade från och med onsdag kl 17 till och med söndag kv�
 Avgift 
 
 Över 16 år 6 €/gång. 
-Till Skärmjaktens gemensamma bankkonto, FI xx (på kommande). Vänligen använd referens 2202 (för Brahes arr), 3311 (Falken), 4433 (Minken) och 5005 (PieHi). 
+Till Skärmjaktens gemensamma bankkonto, FI10 5567 0720 1925 11. Vänligen använd referens 2202 (för Brahes arr), 3311 (Falken), 4433 (Minken) och 5005 (PieHi). 
 E-passis Sporttipassi (mobilbetalning via app) kan användas. Sök upp "Skärmjakten/Rastijahti (59026)", följ anvisningarna och gör betalningen. 
 Tyky-, Smartum och Tyhy (Jakobstadsnejden och Optima) motionssedlar går tyvärr inte att använda i detta läge. 
 Vi tar heller inte emot kontanter för tillfället. 
