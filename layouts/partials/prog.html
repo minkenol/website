@@ -1,0 +1,45 @@
+<table class="table table-hover table-striped">
+  <thead>
+    <tr>
+    <th>#</th>
+    <th>{{ i18n "datum" . }}</th>
+    <th>{{ i18n "club" . }}</th>
+    <th>{{ i18n "place" .  }}</th>
+    <th>{{ i18n "resultat" . }}</th>
+    <th>{{ i18n "host" . }}</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{ $year := .Get 0 }}
+  {{ range $.Site.Data.program }}
+  {{ if eq .year $year }}
+  {{ $i := 1 }}
+  {{  range .events }}
+  {{ $.Scratch.Set "id" "" }}
+  {{ if  lt $i 10 }}
+   {{ $.Scratch.Set "id" "0" }}
+  {{ else }}
+   {{ $.Scratch.Set "id" "" }}
+  {{ end }}
+    <tr>
+      <td>{{  $i }}</td>
+      <td>{{ .Datum }}</td>
+      <td>{{ .Club }}</td>
+      <td>{{ if not (gt .Kartlink 0) -}}
+        <a href="{{.Kartlink}}">{{ .Plats }}</a>
+        {{ else -}}
+        {{ .Plats }}
+        {{ end }}</td>
+      <td><a href="/{{ $year }}/{{ $.Scratch.Get "id" }}{{ $i }}_res.html">{{ i18n "resultat" . }}</a> <a href="/{{ $year  }}/{{ $.Scratch.Get "id" }}{{ $i }}_mel.html">{{ i18n "mellantid" . }}</a></td>
+      <td>{{ $host := .Evenemang }}
+        {{ if $host }}
+      <a href="{{$host.Link}}"><img style="max-height:40px;max-width:200px" src="/{{ $host.Bild }}"> </a></td>
+        {{ end }}
+    </tr>
+   {{ $i = add $i  1 }}
+   {{ end }}
+  {{ end }}
+   {{ end }}
+  </tbody>
+</table>
+

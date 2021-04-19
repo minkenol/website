@@ -1,0 +1,141 @@
+year: "2021"
+events:
+- Plats: Gamla hamn
+  Id: 1
+  Datum: 14-18.4
+  Club: Brahe
+  Kartlink: "https://asiointi.maanmittauslaitos.fi/karttapaikka/?lang=fi&share=customMarker&n=7069034.701167223&e=286720.4737607971&title=SJ/RJ%2014.-18.4.&desc=Kartor,%20sj%C3%A4lvservice%20%0AKartat,%20omatoimi&zoom=11&layers=%5B%7B%22id%22:2,%22opacity%22:100%7D%5D"
+  Evenemang:
+    Link: "http://www.conalin.com/"
+    Bild: "images/Conalincars.jpg"
+  Description: ""
+- Plats: Sisbacka
+  Club: Falken
+  Datum: 21-25.4
+  Id: 2
+  Kartlink: ""
+- Plats: Stjärnhallen
+  Club: Minken
+  Datum: 28.4-2.5
+  Id: 3
+  Kartlink: ""
+- Plats: Lillsand 
+  Club: Brahe 
+  Datum: 5-9.5
+  Id: 4
+  Kartlink: ""
+- Plats: Lngskogen 
+  Club: Falken
+  Datum: 12-16.5 
+  Id: 5
+  Kartlink: ""
+- Plats: Fränsviken, Eugmo
+  Club: Brahe 
+  Datum: 19-23.5
+  Id: 6
+  Kartlink: ""
+  Evenemang:
+    Bild: images/Nynas_logo.png
+    Link: http://www.byggnadsnynas.fi/sv
+- Plats: Pörkenäs 
+  Club: Brahe 
+  Datum: 26-30.5
+  Id: 7
+  Kartlink: ""
+- Plats: Sundby
+  Club: Brahe 
+  Datum: 2-6.6 
+  Id: 8
+  Kartlink: ""
+- Plats: Vexala 
+  Club: Minken
+  Datum: 9-13.6
+  Id: 9
+  Kartlink: ""
+- Plats: Bosund 
+  Club: Brahe 
+  Datum: 16-20.6 
+  Id: 10
+  Kartlink: ""
+  Evenemang:
+    Link: https://www.balticyachts.fi/
+    Bild: images/BY.png
+- Plats:  Lussilundsvägen
+  Club: Brahe
+  Datum: 23-27.6 
+  Id: 11
+  Kartlink: ""
+- Plats: Forsby
+  Club: Falken 
+  Datum: 31.6-4.7 
+  Id: 12
+  Kartlink: ""
+- Plats: Östanp 
+  Club: Brahe 
+  Datum: 7-11.7 
+  Id: 13
+  Kartlink: ""
+- Plats: Ådö
+  Club: Brahe 
+  Datum: 14-18.7 
+  Id: 14
+  Kartlink: ""
+- Plats: Ransvik 
+  Club: Minken 
+  Datum: 21-25.7 
+  Id: 15
+  Kartlink: ""
+- Plats: Sandåsen 
+  Club: Brahe 
+  Datum: 28.7-1.8 
+  Id: 16
+  Kartlink: ""
+  Evenemang:
+    Bild: images/BJH_log.png
+    Link: http://bjh.fi
+- Plats: Esse
+  Club: Falken 
+  Datum: 4-8.8
+  Id: 17
+  Kartlink: ""
+- Plats: Ruusulehto 
+  Club: Piehi 
+  Datum: 11-15.8 
+  Id: 18
+  Kartlink: ""
+- Plats: Nurk 
+  Club: Minken
+  Datum: 18-22.8 
+  Id: 19
+  Kartlink: ""
+- Plats: Vallan 
+  Club: Brahe 
+  Datum: 25-29.8 
+  Id: 20
+  Kartlink: ""
+- Plats: Monå
+  Club: Minken 
+  Datum: 1-5.9 
+  Id: 21
+  Kartlink: ""
+- Plats: Larsmo sp.st.
+  Club: Brahe 
+  Datum: 8-12-9 
+  Id: 22
+  Kartlink: ""
+  Description: "starter (16:30-18)"
+- Plats: Bergö 
+  Club: Falken 
+  Datum: 15-19.9
+  Id: 23
+  Kartlink: ""
+  Description: "starter (16:30-18)"
+- Plats: Degernäs
+  Club: Brahe 
+  Datum: 22-26.9 
+  Id: 24
+  Kartlink: ""
+  Description: "starter (16:30-18). Klubbmästerskap"
+  Evenemang:
+    Bild: images/Amada_logo.png
+    Link: http://www.lki.net/
