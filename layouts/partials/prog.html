@@ -25,7 +25,7 @@
       <td>{{  $i }}</td>
       <td>{{ .Datum }}</td>
       <td>{{ .Club }}</td>
-      <td>{{ if not (gt .Kartlink 0) -}}
+      <td>{{ if .Kartlink  -}}
         <a href="{{.Kartlink}}">{{ .Plats }}</a>
         {{ else -}}
         {{ .Plats }}
