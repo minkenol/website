@@ -13,7 +13,7 @@ events:
   Club: Falken
   Datum: 21-25.4
   Id: 2
-  Kartlink: ""
+  Kartlink: "https://asiointi.maanmittauslaitos.fi/karttapaikka/?lang=fi&share=customMarker&n=7050653.62431334&e=299191.38056550914&title=SJ/RJ%2021-25.4&desc=Sj%C3%A4lvservicekartor%20/%20Omatoimirasti%20kartat%20&zoom=12&layers=%5B%7B%22id%22:2,%22opacity%22:100%7D%5D"
 - Plats: Stjärnhallen
   Club: Minken
   Datum: 28.4-2.5
