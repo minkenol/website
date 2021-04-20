@@ -6,6 +6,7 @@
     <th>{{ i18n "club" . }}</th>
     <th>{{ i18n "place" .  }}</th>
     <th>{{ i18n "resultat" . }}</th>
+    <th>{{ i18n "description" }}</th>
     <th>{{ i18n "host" . }}</th>
     </tr>
   </thead>
@@ -31,6 +32,7 @@
         {{ .Plats }}
         {{ end }}</td>
       <td><a href="/{{ $year }}/{{ $.Scratch.Get "id" }}{{ $i }}_res.html">{{ i18n "resultat" . }}</a> <a href="/{{ $year  }}/{{ $.Scratch.Get "id" }}{{ $i }}_mel.html">{{ i18n "mellantid" . }}</a></td>
+      <td>{{ if .Description }}{{ .Description }}{{ end }}</td>
       <td>{{ $host := .Evenemang }}
         {{ if $host }}
       <a href="{{$host.Link}}"><img style="max-height:40px;max-width:200px" src="/{{ $host.Bild }}"> </a></td>

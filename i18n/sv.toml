@@ -4,6 +4,9 @@ other = "Skärmjakten"
 [starter]
 other = "Starter"
 
+[description]
+other = "Övrigt"
+
 [runner]
 other = "Löpare"
 
