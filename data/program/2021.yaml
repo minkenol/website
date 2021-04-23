@@ -24,6 +24,9 @@ events:
   Datum: 5-9.5
   Id: 4
   Kartlink: ""
+  Evenemang:
+    Bild: images/Handelsbanken_logo.png
+    Link: https://www.handelsbanken.fi/sv/hitta-bankkontor/jakobstad
 - Plats: Lngskogen 
   Club: Falken
   Datum: 12-16.5 
