@@ -65,6 +65,9 @@ events:
   Datum: 23-27.6 
   Id: 11
   Kartlink: ""
+  Evenemang:
+    Bild: images/NCE_logo.png
+    Link: https://nce.fi/sv/
 - Plats: Forsby
   Club: Falken 
   Datum: 31.6-4.7 
