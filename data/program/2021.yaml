@@ -53,6 +53,9 @@ events:
   Datum: 2-6.6 
   Id: 8
   Kartlink: ""
+  Evenemang:
+    Bild: images/Hartman_logo.png
+    Link: https://www.hartman.fi/sv/pietarsaari
 - Plats: Vexala 
   Club: Minken
   Datum: 9-13.6
