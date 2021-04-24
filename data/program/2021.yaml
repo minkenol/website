@@ -49,13 +49,10 @@ events:
     Bild: images/JAKE_logo.png
     Link: https://www.jakerakennus.fi/sv/framsida/
 - Plats: Sundby
-  Club: Brahe 
+  Club: Falken 
   Datum: 2-6.6 
   Id: 8
   Kartlink: ""
-  Evenemang:
-    Bild: images/Hartman_logo.png
-    Link: https://www.hartman.fi/sv/pietarsaari
 - Plats: Vexala 
   Club: Minken
   Datum: 9-13.6
@@ -87,6 +84,9 @@ events:
   Datum: 7-11.7 
   Id: 13
   Kartlink: ""
+  Evenemang:
+    Bild: images/Hartman_logo.png
+    Link: https://www.hartman.fi/sv/pietarsaari
 - Plats: Ådö
   Club: Brahe 
   Datum: 14-18.7 
