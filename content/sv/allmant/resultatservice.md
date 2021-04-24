@@ -1,5 +1,5 @@
 ---
-title: Resultatservice
+title: Självservice
 menu:
   main:
     parent: Allmänt
