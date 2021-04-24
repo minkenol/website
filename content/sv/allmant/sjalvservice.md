@@ -1428,7 +1428,7 @@
   </thead>
   <tbody>
   <tr>
-  <td><div>Resultatservice</div></td>
+  <td><div>Självservice</div></td>
   <td><div><table>
   <thead>
   <tr>
