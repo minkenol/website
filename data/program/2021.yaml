@@ -19,6 +19,7 @@ events:
   Datum: 28.4-2.5
   Id: 3
   Kartlink: ""
+  Description: ""
 - Plats: Lillsand 
   Club: Brahe 
   Datum: 5-9.5
@@ -27,11 +28,12 @@ events:
   Evenemang:
     Bild: images/Handelsbanken_logo.png
     Link: https://www.handelsbanken.fi/sv/hitta-bankkontor/jakobstad
-- Plats: Lngskogen 
+- Plats: Långskogen 
   Club: Falken
   Datum: 12-16.5 
   Id: 5
   Kartlink: ""
+  Description: ""
 - Plats: Fränsviken, Eugmo
   Club: Brahe 
   Datum: 19-23.5
